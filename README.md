@@ -14,15 +14,15 @@ For hardware a **Raspberry Pi 4** was used as well as a **PiCamera**, to allow f
 ### Demo:
 
 ### Libraries and Frameworks Used:
-Keras: https://keras.io/
-OpenCV: https://opencv.org/
-Pandas: https://pandas.pydata.org/
-MatPlotLib: https://matplotlib.org/
-NumPy: https://numpy.org/
+* **Keras:** https://keras.io/
+* **OpenCV:** https://opencv.org/
+* **Pandas:** https://pandas.pydata.org/
+* **MatPlotLib:** https://matplotlib.org/
+* **NumPy:** https://numpy.org/
 
 
 ### Contributers:
-https://github.com/asianz9863
-https://github.com/aegerita
-https://github.com/alperenkes
-Jinwoo Park
+* https://github.com/asianz9863
+* https://github.com/aegerita
+* https://github.com/alperenkes
+* Jinwoo Park
