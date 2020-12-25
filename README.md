@@ -22,7 +22,7 @@ For hardware a **Raspberry Pi 4** was used as well as a **PiCamera**, to allow f
 
 
 ### Contributers:
-* https://github.com/asianz9863
-* https://github.com/aegerita
-* https://github.com/alperenkes
+* Christophe Zhang: https://github.com/asianz9863
+* Jenny Tai: https://github.com/aegerita
+* Alperen Asim Kes: https://github.com/alperenkes
 * Jinwoo Park
