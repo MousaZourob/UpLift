@@ -13,7 +13,14 @@ For hardware a **Raspberry Pi 4** was used as well as a **PiCamera**, to allow f
 
 ### Demo:
 #### 1. OpenCV detects the user's face and crops an image of their face
-<img src="https://user-images.githubusercontent.com/66835262/103143605-aab04300-46e7-11eb-948e-8729de5d88e5.png" width="800px">
+<img src="https://user-images.githubusercontent.com/66835262/103143615-f19e3880-46e7-11eb-9e94-6a8dc7155ed4.png" width="600px">
+
+#### 2. Keras runs a model against the detected faces and determines a facial expression, the data is displayed using MatplotLib
+<img src="https://user-images.githubusercontent.com/66835262/103143643-6a9d9000-46e8-11eb-82e7-1dae90e5593f.png" width="600px">
+
+<br />
+
+#### 3. A song is played through the speakers attached to the Raspberry Pi to maintain or elevate the user's mood 
 
 
 
