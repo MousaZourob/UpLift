@@ -1,12 +1,17 @@
 # UpLift
 ### Overview:
-A mood changer that plays a song to positively change someone's mood based on their facial expression. 
+Uplift is a mood changer programmed with **Python** that plays a song to positively change the user's mood. The song choice is based on the user's facial expression, so if the user is happy, cheerful music is played to keep them motivated, and if they are sad or angry, relaxing music is played to soothe them. A combination of hardware (**Raspberry Pi**), and software (**OpenCV, Keras, Pandas**) components were used to create this project. 
+<br />
+Potential applications of this product include
 
 ### Features:
+* Facial detection and recognition using **OpenCV**
+* 
+
 
 ### Components:
 #### Software:
-The project utilizes OpenCV to read each frame of the video input from the PiCamera. Once this is done it detects where the user’s face is in the frame by pixel location. When a face is detected, a blue rectangle is drawn over the face to allow the user to 
+The project utilizes **OpenCV** to read each frame of the video input from the **PiCamera**, which is connected to a **Raspberry Pi**. Once this is done **OpenCV** detects where the user’s face is in the frame by pixel location. When a face is detected, a blue rectangle is drawn over the face to allow the user to see the program in action. **Keras** then takes the frames and runs them against a dataset from **Kaggle** to determine the user's facial expression. After this using **MatplotLib** and **Pandas** a graph is displayed showing the user their emotions based on their facial expression, and music is played using the **SimpleAudio** Python package
 
 #### Hardware:
 For hardware a **Raspberry Pi 4** was used as well as a **PiCamera**, to allow for efficient and speedy processing of the video frames. These components were connected to a monitor, so that the user can see the live video feed, a graph of their emotions that was displayed using the **Matplotlib** visualization library, and hear the music playing.
@@ -14,6 +19,8 @@ For hardware a **Raspberry Pi 4** was used as well as a **PiCamera**, to allow f
 ### Demo:
 #### 1. OpenCV detects the user's face and crops an image of their face
 <img src="https://user-images.githubusercontent.com/66835262/103143615-f19e3880-46e7-11eb-9e94-6a8dc7155ed4.png" width="600px">
+
+<br />
 
 #### 2. Keras runs a model against the detected faces and determines a facial expression, the data is displayed using MatplotLib
 <img src="https://user-images.githubusercontent.com/66835262/103143643-6a9d9000-46e8-11eb-82e7-1dae90e5593f.png" width="600px">
@@ -36,4 +43,4 @@ For hardware a **Raspberry Pi 4** was used as well as a **PiCamera**, to allow f
 * Christophe Zhang: https://github.com/asianz9863
 * Jenny Tai: https://github.com/aegerita
 * Alperen Asim Kes: https://github.com/alperenkes
-* Jinwoo Park
+* Jinwoo Park: https://github.com/hilfiger1
