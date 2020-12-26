@@ -10,7 +10,7 @@ Other than helping individual users, a commercial application of this product is
 The project utilizes **OpenCV** to read each frame of the video input from the **PiCamera**, which is connected to a **Raspberry Pi**. Once this is done **OpenCV** detects where the user’s face is in the frame by pixel location. When a face is detected, a blue rectangle is drawn over the face to allow the user to see the program in action. **Keras** then takes the frames and runs them against a dataset from **Kaggle** to determine the user's facial expression. After this using **MatplotLib** visualization library and **Pandas**, a graph is displayed showing the user their emotions based on their facial expression, and music is played using the **SimpleAudio** Python package.
 
 #### Hardware:
-For hardware a **PiCamera** was used as well as a **Raspberry Pi 4***, to allow for efficient and speedy processing of the video frames. These components were connected to a monitor, so that the user can see the live video feed and a graph of their emotions that was displayed using the **Matplotlib**, and hear the music playing.
+For hardware a **PiCamera** was used as well as a **Raspberry Pi 4**, to allow for efficient and speedy processing of the video frames. These components were connected to a monitor, so that the user can see the live video feed and a graph of their emotions that was displayed using the **Matplotlib**, and hear the music playing.
 
 
 ### Demo:
