@@ -36,3 +36,4 @@ For hardware a **PiCamera** was used as well as a **Raspberry Pi 4**, to allow f
 * Jenny Tai: https://github.com/aegerita
 * Alperen Asim Kes: https://github.com/alperenkes
 * Jinwoo Park: https://github.com/hilfiger1
+* Mousa Zourob https://github.com/MousaZourob
